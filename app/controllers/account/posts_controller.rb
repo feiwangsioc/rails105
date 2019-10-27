@@ -5,4 +5,12 @@ class Account::PostsController < ApplicationController
     @posts = current_user.posts
   end
   
+  def edit
+    @post = current_user.Post.find(params[:id])
+  end
+  
+  def destroy
+
+  end 
+  
 end
