@@ -37,6 +37,7 @@ gem 'simple_form'
 gem 'devise'
 gem 'popper_js'
 gem 'jquery-rails'
+gem 'will_paginate'
 
 
 
